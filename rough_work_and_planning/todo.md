@@ -30,6 +30,8 @@
 
 2. Dependencies - don't forget to add a requirements.txt ?? have a master one for the repository - probably the same libraries in use for both the assignment and tasks
 
-3. ~~Add problem statement for each weekly task.~~ 30/09/2024, SH
+3. Add a blurb on fivrethrityeight 
 
-4. Add HTML tags to cells with headings
+4. ~~Add problem statement for each weekly task.~~ 30/09/2024, SH
+
+5. Add HTML tags to cells with headings
