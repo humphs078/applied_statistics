@@ -4,15 +4,15 @@
 
 Author: Sean Humphreys
 
-Data repository for 2024 Applied Statistics module
+Repository for 2024 Applied Statistics module
 
 ## Contents
 
-1. [Repository Installation](#1-repository-instructions)
+1. [Repository Instructions](#1-repository-instructions)
 
 2. [Jupyter Notebooks](#2-jupyter-notebooks)
 
-2. [Python Libraries](#3-python-librariespython-logo)
+3. [Python Dependencies](#3-python-dependencies)
 
 
 ## 1. Repository Instructions![github logo](/images/logos/github_logo_title.png)
@@ -22,7 +22,6 @@ To access the files in this repository Git Desktop must be installed on the loca
 Git desktop installation files are accessed [here](https://desktop.github.com/).
 
 Guides on the use of Git are available [here](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop).
-
 
 This repository can be cloned with the following git command:
 
@@ -36,14 +35,36 @@ Jupyter Notebooks are an interactive way to explain code and visualize data. Fur
 
 To run this file in a fully interactive way the Jupyter Notebooks server must be installed on the local machine. Instructions on how to install Jupyter Notebooks server can be found [here](https://jupyter.org/install).
 
-This repository contains XX Jupyter Notebook:
+This repository contains two Jupyter Notebooks:
 
-## 3. Python Libraries![python logo](/images/logos/python_logo.png)
++ [Tasks Notebook](/tasks.ipynb)
 
-The following python libraries must be installed on the local machine to run the python scripts and notebooks in this repository:
++ [Project Notebook](/project.ipynb)
+
+## 3. Python Dependencies![python logo](/images/logos/python_logo.png)
+
+Once cloned this the required python packages can be installed from the command line with the following command:
+
++ with anaconda
+
+```bash
+conda install --yes --file requirements.txt
+```
+
++ or with pip
+
+```bash
+pip install -r requirements.txt
+```
+
+Or should you wish to install the packages manually please run the following commands from the bash console:
 
 + matplotlib - `pip install matplotlib`
 
 + pandas - `pip install pandas`
 
 + seaborn - `pip install seaborn`
+
++ numpy - `pip install numpy`
+
++ scipy - `pip install scipy`
