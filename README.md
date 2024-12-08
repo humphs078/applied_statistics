@@ -1,21 +1,33 @@
 # Applied Statistics
 
-![python_logo](/images/logos/python_logo.png) ![jupyter_logo](/images/logos/jupyter_logo_mod_sh_title.png) ![markdown_logo](/images/logos/markdown_title.png) ![github_logo](/images/logos/github_logo_title.png)
+![python_logo](/images/logos/python_logo.png) ![jupyter_logo](/images/logos/jupyter_logo_mod_sh_title.png) ![markdown_logo](/images/logos/markdown_title.png) ![github_logo](/images/logos/github_logo_title.png) ![anaconda logo](/images/logos/anaconda_icon.resized.png) ![vsc logo](/images/logos/vsc_logo.resized.jpeg)
 
 Author: Sean Humphreys
 
-Repository for 2024 Applied Statistics module
+Email: sean@cruaghgreen.com
 
-## Contents
+This repository contains the submissions for 2024 Applied Statistics module.
 
-1. [Repository Instructions](#1-repository-instructions)
+The Jupyter notebooks in this repository demonstrate statistical hypothesis testing, including testing for normality, t-Tests and ANOVA on various datasets.
 
-2. [Jupyter Notebooks](#2-jupyter-notebooks)
+The power of statistical tests, type I and type II errors are explored in the notebook.
 
-3. [Python Dependencies](#3-python-dependencies)
+## Prerequisites
+
+Before running the Jupyter Notebooks in this repository, make sure you have the following installed:
+
+- Github - GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
+
+- Anaconda - for managing Python environments and packages.
+
+- Visual Studio Code - for editing and running Jupyter Notebooks.
+
+- Python (via Anaconda).
+
+## Installation Instructions
 
 
-## 1. Repository Instructions![github logo](/images/logos/github_logo_title.png)
+### Step 1 - Inbstall Git ![github logo](/images/logos/github_logo_title.png)
 
 To access the files in this repository Git Desktop must be installed on the local machine.
 
@@ -29,11 +41,31 @@ This repository can be cloned with the following git command:
 git clone https://github.com/humphs078/applied_statistics.git
 ```
 
-## 2. Jupyter Notebooks![jupyter logo](/images/logos/jupyter_logo_mod_sh_title.png "jupyter logo")
+### Step 2 - Install Anaconda ![anaconda logo](/images/logos/anaconda_icon.resized.png)
 
-Jupyter Notebooks are an interactive way to explain code and visualize data. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
+1. Go to the [Anaconda website](https://www.anaconda.com/products/individual) and download the latest version of Anaconda for your operating system (Windows, macOS, or Linux).
 
-To run this file in a fully interactive way the Jupyter Notebooks server must be installed on the local machine. Instructions on how to install Jupyter Notebooks server can be found [here](https://jupyter.org/install).
+2. Follow the installation instructions on the website for your platform.
+
+### Step 3 - Install Visual Studio Code ![vsc logo](/images/logos/vsc_logo.resized.jpeg)
+
+If you don't have Visual Studio Code installed, download it from the [official website](https://code.visualstudio.com/).
+
+Open VS Code and install the Jupyter extension:
+
++ Go to the Extensions view (Ctrl+Shift+X), search for "Jupyter", and click "Install"
+
+### Step 4 - Open the Jupyter Notebook ![jupyter logo](/images/logos/jupyter_logo_mod_sh_title.png "jupyter logo")
+
+1. Open the folder containing the repository in Visual Studio Code.
+
+2. Navigate to the Jupyter notebook file (with the .ipynb extension).
+
+3. Select the Python kernel (from the environment you created) by clicking the kernel name in the top-right corner of the notebook window.
+
+### Step 5 - Run the Notebook
+
+Once the environment and kernel are set up, you can start running cells in the Jupyter Notebook directly in Visual Studio Code. Simply press Shift + Enter to execute each cell.
 
 This repository contains two Jupyter Notebooks:
 
@@ -41,9 +73,10 @@ This repository contains two Jupyter Notebooks:
 
 + [Project Notebook](/project.ipynb)
 
-## 3. Python Dependencies![python logo](/images/logos/python_logo.png)
 
-Once cloned this the required python packages can be installed from the command line with the following command:
+## Python Dependencies![python logo](/images/logos/python_logo.png)
+
+Once cloned the required python packages can be installed from the command line with the following command:
 
 + with anaconda
 
@@ -56,15 +89,3 @@ conda install --yes --file requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-
-Or should you wish to install the packages manually please run the following commands from the bash console:
-
-+ matplotlib - `pip install matplotlib`
-
-+ pandas - `pip install pandas`
-
-+ seaborn - `pip install seaborn`
-
-+ numpy - `pip install numpy`
-
-+ scipy - `pip install scipy`
