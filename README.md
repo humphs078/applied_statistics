@@ -4,7 +4,7 @@
 
 Author: Sean Humphreys
 
-Email: sean@cruaghgreen.com
+Email: <sean@cruaghgreen.com>
 
 This repository contains the submissions for 2024 Applied Statistics module.
 
@@ -69,22 +69,22 @@ Once the environment and kernel are set up, you can start running cells in the J
 
 This repository contains two Jupyter Notebooks:
 
-+ [Tasks Notebook](/tasks.ipynb)
+- [Tasks Notebook](/tasks.ipynb)
 
-+ [Project Notebook](/project.ipynb)
+- [Project Notebook](/project.ipynb)
 
 
 ## Python Dependencies![python logo](/images/logos/python_logo.png)
 
 Once cloned the required python packages can be installed from the command line with the following command:
 
-+ with anaconda
+- with anaconda
 
 ```bash
 conda install --yes --file requirements.txt
 ```
 
-+ or with pip
+- or with pip
 
 ```bash
 pip install -r requirements.txt
