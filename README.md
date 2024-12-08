@@ -27,7 +27,7 @@ Before running the Jupyter Notebooks in this repository, make sure you have the 
 ## Installation Instructions
 
 
-### Step 1 - Inbstall Git ![github logo](/images/logos/github_logo_title.png)
+### Step 1 - Install Git ![github logo](/images/logos/github_logo_title.png)
 
 To access the files in this repository Git Desktop must be installed on the local machine.
 
