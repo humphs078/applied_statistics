@@ -10,11 +10,11 @@ This repository contains the submissions for 2024 Applied Statistics module.
 
 The Jupyter notebooks in this repository demonstrate statistical hypothesis testing, including testing for normality, t-Tests and ANOVA on various datasets.
 
-The power of statistical tests, type I and type II errors are explored in the notebook.
+The power of statistical tests, type I and type II errors are explored in the notebooks.
 
 ## Prerequisites
 
-Before running the Jupyter Notebooks in this repository, make sure you have the following installed:
+Before running the Jupyter Notebooks in this repository, make sure the following are installed:
 
 - Github - GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
 
